@@ -34,6 +34,8 @@ parent->left = new_node;
 current = parent->left;
 current->left = temp;
 temp->parent = current;
+temp->left = NULL;
+temp->right = NULL;
 }
 return (new_node);
 }
