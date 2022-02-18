@@ -17,7 +17,6 @@ return (0);
 
 h1 = binary_tree_height(tree->left);
 h2 = binary_tree_height(tree->right);
-
 if (h1 < h2)
 return (h2 + 1);
 return (h1 + 1);
